@@ -25,6 +25,7 @@ Number of nodes expanded
 Time taken
 
 **Repository Structure**
+
 semantic-word-ladder/
 │
 ├── src/                     
