@@ -2,7 +2,6 @@
 Semantic Word Ladder Search with multiple AI Search Algorithms, Interactive UI, and Visualization
 
 # Project Description
-
 Semantic Word Ladder is a project that finds transformation paths between words based on their meaning rather than just spelling.It combines graph algorithms, AI search strategies, and word embeddings to create a fast, interactive word ladder solver with visualization and performance optimization.
 
 Unlike traditional word ladder puzzles (letter-based), this project uses GloVe embeddings to navigate a graph of semantically similar words, allowing for meaningful transformations.
@@ -29,13 +28,13 @@ Time taken
    ```
   git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
   cd semantic-word-ladder
-  ```
+  
 3) Create a virtual environment (recommended):
    ```
   python -m venv venv
   source venv/bin/activate       # Linux/macOS
   venv\Scripts\activate          # Windows
-  ```
+  
 4) Install dependencies:
    numpy
    streamlit
@@ -44,17 +43,17 @@ Time taken
 1) Build Neighbor Graph:
    ```
    python src/build_graph.py
-   ```
+   
 this generate neighbors.pkl from glove.100d.20000.txt
 3) Run GUI:
    ```
    streamlit run src/gui.py
-   ```
+   
 4) Run from terminal (optional):
    ```
    python src/informed_wordladder.py
    python src/uninformed_wordladder.py
-   ```
+   
 # Repository Structure
 ```
 semantic-word-ladder/
