@@ -40,8 +40,8 @@ semantic-word-ladder/
 │   └── neighbors.pkl             # Precomputed neighbor graph
 ├── .gitignore
 ├── LICENSE
-└── README.md  ```text
-
+└── README.md  
+```text
 **Installation**
 1) Clone the repo:
   git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
