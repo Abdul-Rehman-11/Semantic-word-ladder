@@ -143,10 +143,10 @@ if __name__ == "__main__":
     start_word = "pjl"
     goal_word = "lemmen"
 
-    with open("neighbors.pkl", "rb") as f:
+    with open("data/neighbors.pkl", "rb") as f:
         neighbors = pickle.load(f)
 
-    words, vectors, word_index = load_glove("glove.100d.20000.txt")
+    words, vectors, word_index = load_glove("data/glove.100d.20000.txt")
 
     print("\nGreedy")
     t1 = time.time()

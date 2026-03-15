@@ -9,7 +9,7 @@ algorithm = "dfs"
 DEPTH_LIMIT = 20
 
 print("Loading neighbor graph")
-with open("neighbors.pkl", "rb") as f:
+with open("data/neighbors.pkl", "rb") as f:
     neighbors = pickle.load(f)
 
 def bfs(start, goal, neighbors):

@@ -9,10 +9,10 @@ from Informed_Wordladder import load_glove
 @st.cache_resource
 def load_data():
 
-    with open("neighbors.pkl", "rb") as f:
+    with open("data/neighbors.pkl", "rb") as f:
         neighbors = pickle.load(f)
 
-    words, vectors, word_index = load_glove("glove.100d.20000.txt")
+    words, vectors, word_index = load_glove("data/glove.100d.20000.txt")
 
     return neighbors, words, vectors, word_index
 

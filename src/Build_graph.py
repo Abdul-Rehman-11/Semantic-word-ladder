@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 
-GLOVE_FILE = "glove.100d.20000.txt"
+GLOVE_FILE = "data/glove.100d.20000.txt"
 K = 100
 
 print("Loading...")
