@@ -27,20 +27,17 @@ Time taken
 **Repository Structure**
 
 semantic-word-ladder/
-│
-├── src/                     
-│   ├── build_graph.py           # Builds the neighbor graph from GloVe embeddings
-│   ├── informed_wordladder.py   # Greedy & A* search implementations
-│   ├── uninformed_wordladder.py # BFS, DFS, UCS search implementations
-│   └── gui.py                   # Streamlit interface for interactive search
-│
-├── data/                        
-│   ├── glove.100d.20000.txt     # GloVe embeddings
-│   └── neighbors.pkl             # Precomputed neighbor graph
-│
-├── .gitignore                   
-├── LICENSE                      
-└── README.md     
+├── src/
+│   ├── build_graph.py          # Builds the neighbor graph from GloVe embeddings
+│   ├── informed_wordladder.py  # Greedy & A* search implementations
+│   ├── uninformed_wordladder.py# BFS, DFS, UCS search implementations
+│   └── gui.py                  # Streamlit interface for interactive search
+├── data/
+│   ├── glove.100d.20000.txt    # GloVe embeddings
+│   └── neighbors.pkl            # Precomputed neighbor graph
+├── .gitignore
+├── LICENSE
+└── README.md  
 
 **Installation**
 1) Clone the repo:
