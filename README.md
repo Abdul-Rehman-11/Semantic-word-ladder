@@ -24,13 +24,12 @@ Number of nodes expanded
 Time taken
 
 # Installation
-```
 1) Clone the repo:
-  git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
+```  git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
   cd semantic-word-ladder
   
 3) Create a virtual environment (recommended):
-  python -m venv venv
+```  python -m venv venv
   source venv/bin/activate       # Linux/macOS
   venv\Scripts\activate          # Windows
   
