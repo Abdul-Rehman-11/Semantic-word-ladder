@@ -1,13 +1,13 @@
 # Semantic-word-ladder
 Semantic Word Ladder Search with multiple AI Search Algorithms, Interactive UI, and Visualization
 
-**Project Description**
+# Project Description
 
 Semantic Word Ladder is a project that finds transformation paths between words based on their meaning rather than just spelling.It combines graph algorithms, AI search strategies, and word embeddings to create a fast, interactive word ladder solver with visualization and performance optimization.
 
 Unlike traditional word ladder puzzles (letter-based), this project uses GloVe embeddings to navigate a graph of semantically similar words, allowing for meaningful transformations.
 
-**Features**
+# Features
 *Implements Uninformed Search Algorithms:*
 BFS (Breadth-First Search)
 DFS (Depth-First Search)
@@ -24,10 +24,26 @@ Word Ladder path
 Number of nodes expanded
 Time taken
 
-**Repository Structure**
+# Installation
+1) Clone the repo:
+  git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
+  cd semantic-word-ladder
+2) Create a virtual environment (recommended):
+  python -m venv venv
+  source venv/bin/activate       # Linux/macOS
+  venv\Scripts\activate          # Windows
+3) Install dependencies:
+   numpy
+   streamlit
 
-semantic-word-ladder/
-
+# How to Use
+1) Build Neighbor Graph:
+   python src/build_graph.py
+this generate neighbors.pkl from glove.100d.20000.txt
+2) Run GUI:
+   streamlit run src/gui.py
+   
+# Repository Structure
 ```text
 semantic-word-ladder/
 ├── src/
@@ -41,25 +57,8 @@ semantic-word-ladder/
 ├── .gitignore
 ├── LICENSE
 └── README.md  
-```text
-**Installation**
-1) Clone the repo:
-  git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
-  cd semantic-word-ladder
-2) Create a virtual environment (recommended):
-  python -m venv venv
-  source venv/bin/activate       # Linux/macOS
-  venv\Scripts\activate          # Windows
-3) Install dependencies:
-   numpy
-   streamlit
 
-**How to Use**
-1) Build Neighbor Graph:
-   python src/build_graph.py
-this generate neighbors.pkl from glove.100d.20000.txt
-2) Run GUI:
-   streamlit run src/gui.py
+
 3) Run from terminal (optional):
    python src/informed_wordladder.py
   python src/uninformed_wordladder.py
