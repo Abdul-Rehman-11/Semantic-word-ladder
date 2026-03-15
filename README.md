@@ -40,7 +40,7 @@ semantic-word-ladder/
 │   └── neighbors.pkl             # Precomputed neighbor graph
 ├── .gitignore
 ├── LICENSE
-└── README.md  
+└── README.md  ```
 
 **Installation**
 1) Clone the repo:
