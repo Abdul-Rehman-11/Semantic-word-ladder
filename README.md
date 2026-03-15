@@ -26,7 +26,7 @@ Time taken
 # Installation
 1) Clone the repo:
 ```  git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
-  cd semantic-word-ladder
+  cd semantic-word-ladder```
   
 3) Create a virtual environment (recommended):
 ```  python -m venv venv
