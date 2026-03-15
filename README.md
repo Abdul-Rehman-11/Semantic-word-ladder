@@ -25,30 +25,35 @@ Time taken
 
 # Installation
 1) Clone the repo:
-```  git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
-  cd semantic-word-ladder```
-  
-3) Create a virtual environment (recommended):
-```  python -m venv venv
+```
+  git clone https://github.com/Abdul-Rehman-11/Semantic-word-ladder.git
+  cd semantic-word-ladder
+```
+2) Create a virtual environment (recommended):
+```
+  python -m venv venv
   source venv/bin/activate       # Linux/macOS
   venv\Scripts\activate          # Windows
-  
-4) Install dependencies:
+```
+3) Install dependencies:
    numpy
    streamlit
 
 # How to Use
 1) Build Neighbor Graph:
+```
    python src/build_graph.py
-   
+```
 this generate neighbors.pkl from glove.100d.20000.txt
-3) Run GUI:
+2) Run GUI:
+```
    streamlit run src/gui.py
-   
-4) Run from terminal (optional):
+```
+3) Run from terminal (optional):
+```
    python src/informed_wordladder.py
    python src/uninformed_wordladder.py
-   
+```
 # Repository Structure
 ```
 semantic-word-ladder/
